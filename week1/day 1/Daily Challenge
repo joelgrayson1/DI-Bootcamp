@@ -1,2 +1,3 @@
-userstring = input('enter a string (10 characters long):')
-if 
+#1. Using the input function, ask the user for a string. String must be 10 characters long.
+
+my_string = input

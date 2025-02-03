@@ -1,0 +1,19 @@
+Define the following value types:
+
+strings: #sequences of characters that can be created using quotes. Includes letters numbers and symbols.
+integers: # a whole number without decimals, positive or negative
+floats: # converts code into floating point numbers, contains one or more decimals
+booleans: #data type with one or 2 possible values denoted true or false
+
+#In python everything is an object
+
+#String method: string.upper()
+
+#integers, floats  > or <, == !=
+
+#Booleans: and, or
+
+#Functions:
+#print()
+#len()
+#input()
