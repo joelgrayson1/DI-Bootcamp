@@ -1,0 +1,25 @@
+Functions
+
+useful because:
+- reusability
+- better structure to the code
+- increase your code efficiency
+
+how to create them in python:
+def <name> (arguments/parameters):
+   indented block
+
+
+types of arguments:
+- positional
+- keyword
+- default
+
+how to access the output
+- return: stops the Function and pass the output
+- return multiple values
+
+Global and Local scope
+global keyword
+passing global variables as arguments: iterables and mutable
+ 

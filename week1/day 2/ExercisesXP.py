@@ -32,13 +32,20 @@ print(basket)
 
 #Exercise 4
 #A float ia a decimal number or whole number. An integer is a whole number and not a decimal.
+list_of_int_float = []
+
+for i in range(3,11,2)
+    list_of_int_float.append(i)
+    list_of_int_float.append(i+0.5)
+print(list_of_int_float)
+
 
 #Exercise 5
-for num in range(1,21):
-    print(num)
-for i in range(1,21):
-    if i % 2 == 1:
-        print(i)
+for number in range(1,21):
+    print(number)
+
+for number in range(1,21,2):
+    print(number)
 
 #Exercise 6
 my_name = 'Joel'
@@ -53,6 +60,7 @@ while True:
         print('Not my name')
 
 #Exercise 8
+
 
 #Exercise 9 
 total_cost = 0
@@ -74,11 +82,14 @@ print(f'\nThe totalcost for the family ticket is: ${total_cost}')
 
 #Exercise 10
 sandwich_orders = ['tuna sandwich', 'pastrami sandwich', 'avocado sandwich', 'pastrami sandwich', 'egg sandwich', 'chicken sandwich', 'pastrami sandwich']
-while 'pastrami sandwich' in sandwich_orders:
-    sandwich_orders.remove('pastrami sandwich')
-finished_sandwiches = []
-while sandwich_orders:
-    sandwich = sandwich_orders.pop(0)
-    finished_sandwiches.append(sandwich)
-    print(f'I made your {sandwich.lower()}')
-    
+
+for i in sandwich_orders:
+    if i.count('pastrami sandwich'):
+        sandwich_orders.remove(i)
+print(sandwich_orders)
+
+finished_sandwiches=[]
+for index in sandwich_orders:
+
+    finished_sandwiches.append(index)
+    print(f'I made your {index.lower()}')

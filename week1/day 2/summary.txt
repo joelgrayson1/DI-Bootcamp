@@ -1,8 +1,8 @@
 Data Structures:
-- Lists: ordered, mutable
-- Tuple: ordered, imutable, + than 2 elements
-- Sets: unordered, mutable, no duplicates
+- Lists: iterable, ordered, mutable
+- Tuple: iterable, ordered, imutable, + than 2 elements
+- Sets: iterible, unordered, mutable, no duplicates
 
 Loops
-- for loops: iterables(sequences), range(), enumarable
+- for loops: iterables(sequences), range(), enumarate()
 - while loops: counter (i), while true 
