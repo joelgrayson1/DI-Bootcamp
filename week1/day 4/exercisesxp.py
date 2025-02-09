@@ -66,5 +66,7 @@ make_shirt('Medium')
 
 make_shirt('Small', 'I love Haifa')
 
+#Ex7
+
 
 
