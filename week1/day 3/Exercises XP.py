@@ -89,7 +89,6 @@ brand.update(more_on_zara)
 
 print(f"The updated number of stores is {brand['number_stores']}.")
 
-#Dictionaires were merged and the number of stores updated to 10,000
 
 #Ex4
 
