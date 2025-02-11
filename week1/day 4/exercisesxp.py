@@ -68,5 +68,47 @@ make_shirt('Small', 'I love Haifa')
 
 #Ex7
 
+def get_random_temp(season):
+    if season == 'winter':
+        return round(random.uniform(-10, 16), 1)
+    elif season == 'spring':
+        return round(random.uniform(0, 20), 1)
+    elif season == 'summer':
+        return round(random.uniform(16, 40), 1)
+    elif season == 'autumn' or season == 'fall':
+        return round(random.uniform(5, 25), 1)
+    else:
+        return "Invalid season"
 
+def main():
+    
+    month = int(input("Please enter the month number (1-12): "))
+
+    if 3 <= month <= 5:
+        season = 'spring'
+    elif 6 <= month <= 8:
+        season = 'summer'
+    elif 9 <= month <= 11:
+        season = 'autumn'
+    else:
+        season = 'winter'
+
+    temperature = get_random_temp(season)
+
+    print(f"The temperature right now is {temperature} degrees Celsius.")
+
+    if temperature < 0:
+        print("Brrr, that's freezing! Wear some extra layers today.")
+    elif 0 <= temperature <= 16:
+        print("Quite chilly! Don't forget your coat.")
+    elif 16 < temperature <= 23:
+        print("A pleasant temperature! Perfect for a walk outside.")
+    elif 24 <= temperature <= 32:
+        print("Getting warm! Make sure to stay hydrated.")
+    else:  
+        print("It's really hot out there! Stay cool and wear sunscreen.")
+
+main()
+
+#Ex8: 
 
