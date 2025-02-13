@@ -129,4 +129,30 @@ calculate_minutes_lived(birthdate_input)
 
 #Ex7
 
+from faker import Faker
+
+# Create an instance of Faker
+fake = Faker()
+
+# Create an empty list to store user data
+users = []
+
+def add_user():
+    # Generate fake data
+    user = {
+        'name': fake.name(),
+        'address': fake.address(),
+        'language_code': fake.language_code()
+    }
+    
+    # Append the new user dictionary to the users list
+    users.append(user)
+
+# Add a few users for demonstration
+add_user()
+add_user()
+add_user()
+
+# Print out the users list
+print(users)
 
